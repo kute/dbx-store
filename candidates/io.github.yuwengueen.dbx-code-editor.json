@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.yuwengueen.dbx-code-editor",
+  "publisher": "yuwengueen",
+  "version": "0.1.29",
+  "name": "Code Editor",
+  "description": "Browse, search, and edit local project files inside DBX.",
+  "icon": "https://raw.githubusercontent.com/yuwenGueen/dbx-code-editor/v0.1.29/assets/plugin.svg",
+  "tags": [
+    "editor",
+    "files",
+    "developer-tools"
+  ],
+  "permissions": [
+    "host.ai",
+    "host.storage"
+  ],
+  "source": "https://github.com/yuwenGueen/dbx-code-editor",
+  "homepage": "https://github.com/yuwenGueen/dbx-code-editor",
+  "license": "Apache-2.0",
+  "releaseNotes": "v0.1.29\n- 修复 Windows 发布测试中不适用的 POSIX 可执行权限断言，保留 Git 与 AI 提交说明功能。\n\nEnglish\n- Fix the Windows release check for POSIX executable permission bits while retaining Git and AI commit message features.",
+  "localizations": {
+    "zh-CN": {
+      "name": "Code Editor",
+      "description": "在 DBX 中浏览、搜索和编辑本地项目文件。"
+    }
+  },
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/yuwenGueen/dbx-code-editor/releases/download/v0.1.29/io.github.yuwengueen.dbx-code-editor-0.1.29-darwin-arm64.dbxp",
+      "sha256": "940df092447e9b7e072abfff793ae0af97fa86654c5aa8094326e4bbc74a69cd",
+      "size": 4200512
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/yuwenGueen/dbx-code-editor/releases/download/v0.1.29/io.github.yuwengueen.dbx-code-editor-0.1.29-darwin-x64.dbxp",
+      "sha256": "c79e27015058f9e53886199faa8df5d471ab505e5ab773f1ba26cfb868200811",
+      "size": 4342784
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/yuwenGueen/dbx-code-editor/releases/download/v0.1.29/io.github.yuwengueen.dbx-code-editor-0.1.29-linux-arm64.dbxp",
+      "sha256": "b97d6cebb7644e72371fad4bbd664d412ed0ffb409d5654fe1d0bdf125b15431",
+      "size": 4196671
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/yuwenGueen/dbx-code-editor/releases/download/v0.1.29/io.github.yuwengueen.dbx-code-editor-0.1.29-linux-x64.dbxp",
+      "sha256": "18b8add6d6c86c50a8248736e02732032d23eb91e38a9a16fce688f41778b8f5",
+      "size": 4395349
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/yuwenGueen/dbx-code-editor/releases/download/v0.1.29/io.github.yuwengueen.dbx-code-editor-0.1.29-windows-x64.dbxp",
+      "sha256": "030465dedb9f1ccb5915c3fd46f93eb68c716a6f8984e5f6e2abf9753da22d8b",
+      "size": 4425505
+    }
+  ]
+}
