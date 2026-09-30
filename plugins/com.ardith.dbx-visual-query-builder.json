@@ -19,7 +19,7 @@
   "source": "https://github.com/ardith666/dbx-visual-query-builder/tree/v0.16.0",
   "homepage": "https://github.com/ardith666/dbx-visual-query-builder",
   "license": "Apache-2.0",
-  "latestVersion": "0.16.0",
+  "latestVersion": "0.18.0",
   "versions": [
     {
       "version": "0.16.0",
@@ -32,6 +32,20 @@
           "sha256": "b26c4231b5d85ed0125183595aaf2b5908c2def41dedd017cf1f0691d524363c",
           "signingKeyId": "dbx-store-release-2026",
           "size": 42311
+        }
+      ]
+    },
+    {
+      "version": "0.18.0",
+      "releasedAt": "2026-09-30T18:11:23.754Z",
+      "releaseNotes": "Searchable database picker (the native select could not be filtered, and this connection reports 62 schemas) with full keyboard control. Relationship cardinality is now drawn as a single 1:N badge on the edge at the curve midpoint. Also fixes: HAVING no longer accepts a free-form expression, foreign-key edges are always labelled 1:N instead of guessing at junction tables, and the test mock is no longer reachable from the shipped bundle.",
+      "artifacts": [
+        {
+          "target": "universal",
+          "url": "https://dl.dbxio.com/plugins/com.ardith.dbx-visual-query-builder/0.18.0/com.ardith.dbx-visual-query-builder-0.18.0-universal.dbxp",
+          "sha256": "3e393c903231f8bbcb029f486808073eabd1af592f64e1ee361aa95c234f6927",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 43994
         }
       ]
     }
