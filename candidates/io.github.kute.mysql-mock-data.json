@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.kute.mysql-mock-data",
+  "publisher": "kute",
+  "version": "0.0.5",
+  "name": "MySQL Mock Data",
+  "description": "Generate and preview MySQL mock INSERT SQL from table schemas and sampled existing rows, with a built-in generator or installation and usage guidance for external CLI tools.",
+  "icon": "https://raw.githubusercontent.com/kute/dbx-plugin-data-generate/v0.0.5/assets/plugin.svg",
+  "tags": ["mysql", "test-data", "mock-data", "data-generation"],
+  "permissions": ["host.data:read", "host.workbench"],
+  "source": "https://github.com/kute/dbx-plugin-data-generate/tree/v0.0.5",
+  "homepage": "https://github.com/kute/dbx-plugin-data-generate",
+  "license": "Apache-2.0",
+  "releaseNotes": "Initial Marketplace candidate. Generates MySQL mock INSERT SQL from table metadata and samples of existing rows. External generator selections provide installation and command-line usage guidance; the plugin does not execute external CLIs or write rows to the database.",
+  "localizations": {
+    "zh-CN": {
+      "name": "MySQL Mock 数据生成",
+      "description": "根据 MySQL 表结构和已有数据生成、预览模拟 INSERT SQL；支持内置生成器，并提供外部 CLI 工具的安装和使用指引。"
+    }
+  },
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/kute/dbx-plugin-data-generate/releases/download/v0.0.5/io.github.kute.mysql-mock-data-0.0.5-darwin-arm64.dbxp",
+      "sha256": "2d7cde31281298e0ddf079a9a134c38bddd49ca6196f220c4d4f5d283b1d4592",
+      "size": 623402
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/kute/dbx-plugin-data-generate/releases/download/v0.0.5/io.github.kute.mysql-mock-data-0.0.5-darwin-x64.dbxp",
+      "sha256": "aa77cac02321c3563e7d731184b371ec6b3ef76ab0219188a29f02292033b5c3",
+      "size": 634331
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/kute/dbx-plugin-data-generate/releases/download/v0.0.5/io.github.kute.mysql-mock-data-0.0.5-linux-arm64.dbxp",
+      "sha256": "aa16174828d46a4537e65f88a624dd95a985f07306587597cde7c998744591b8",
+      "size": 657334
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/kute/dbx-plugin-data-generate/releases/download/v0.0.5/io.github.kute.mysql-mock-data-0.0.5-linux-x64.dbxp",
+      "sha256": "7e6650dcab8ffc0d7e3923d43feafd9218a69baf803ee806e63770059886c1d6",
+      "size": 664827
+    },
+    {
+      "target": "windows-arm64",
+      "url": "https://github.com/kute/dbx-plugin-data-generate/releases/download/v0.0.5/io.github.kute.mysql-mock-data-0.0.5-windows-arm64.dbxp",
+      "sha256": "f6f26fe358dceeb254a4f47b34b9de8e085998e8ba4c31a26083f310d1aa8584",
+      "size": 506464
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/kute/dbx-plugin-data-generate/releases/download/v0.0.5/io.github.kute.mysql-mock-data-0.0.5-windows-x64.dbxp",
+      "sha256": "af831456071d9c5ffc203f440236890e2b51e85f811cd4455b092102441c4d64",
+      "size": 514931
+    }
+  ]
+}
